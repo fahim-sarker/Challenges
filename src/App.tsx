@@ -1,9 +1,13 @@
-import TodoList from "./components/TodoList";
+// import TodoList from "./components/TodoList";
+
+import Togglebg from "./components/Togglebg";
+
 
 function App() {
   return (
     <section className="">
-      <TodoList/>
+      {/* <TodoList/> */}
+      <Togglebg/>
     </section>
   );
 }
